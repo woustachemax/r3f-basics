@@ -10,3 +10,17 @@
 ## Summary
 
 React 3 Fiber Basics. React 3 Fiber Basics has a few things to work with. Firstly, it starts with the canvas. Canvas needs to be initialized to start a React 3 Fiber application, to draw a React 3 Fiber application. Canvas needs to be imported and the rest of all is done by itself. After the canvas, it's very easy to play around with the meshes. And inside the meshes you can have geometries, you can have groups which have multiple meshes inside them. The meshes will have parameters like rotation, position, and scale. But the rotation will be an angle at which the meshes can be seen, not the angle at which the meshes rotate. For the rotation part, we will need something called UseFrame, which is a built-in React 3 Fiber state management tool. It does not come with React, but it comes with React 3 Fiber. Inside the mesh, there's box geometry. If you want to go ahead and create a box, there's sphere geometry and all of those geometries that already exist in 3js. There's a standard material, or basic material, or normal material, whatever material you want to choose that needs to be initialized. The properties include scale and color. It is pretty straightforward. For custom objects, it uses the buffer geometry attribute. Inside the buffer geometry, there needs to be a buffer attribute initialized, which takes in position and the number of vertices. And you also have to initialize a string called attach. Apart from that, we also deal with cameras. The camera is by default initialized in React 3 Fiber, unlike 3js, where the camera needs to be initialized. We can also play around with the camera by pre-initializing it in the canvas and playing around with the field of view and parameters like near, far, position, etc. We can also have an orthographic camera, but to see the changes reflect, we'll have to go towards orbit controls. I found orbit controls in 3js to be very, very difficult, so I skipped orbit controls and I just implemented that in React 3 Fiber applications because I've come to understand that it's pretty standard. It does not require a lot of math, a lot of physics. It's already initialized and it just needs to be played around with the attributes that it already has.
+
+
+
+# Playing Around With React 3 Fiber Drei
+
+- Played around with Orbit Controls, Pivot Controls and Transform Controls
+
+- Played around with 'Html', to add text in R3f
+
+- Played around with Text which also acts like Geometry can tinker with its position, width, alignment, etc.
+
+- Plated around with Float helper to help float any object like a helium baloon
+
+- Used MeshReflective material and tinkered with the intensity of ambient light and MeshReflective material property to have shadows
